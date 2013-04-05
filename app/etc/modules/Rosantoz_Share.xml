@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rosantoz_Share>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Rosantoz_Share>
+    </modules>
+</config>

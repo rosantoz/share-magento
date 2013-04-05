@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<layout>
+
+    <catalog_product_view>
+
+        <reference name="product.info.addtocart">
+            <block type="rosantoz_share/share" name="rosantoz.share.button"/>
+        </reference>
+
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>rosantoz_share/css/facebook.css</stylesheet>
+            </action>
+        </reference>
+
+    </catalog_product_view>
+
+    <rosantoz_share_handle>
+        <update handle="catalog_product_view"/>
+    </rosantoz_share_handle>
+
+</layout>

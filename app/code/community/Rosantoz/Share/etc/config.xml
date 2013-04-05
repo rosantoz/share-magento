@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Rosantoz_Share>
+            <version>1.0.0</version>
+        </Rosantoz_Share>
+    </modules>
+
+    <global>
+
+        <blocks>
+            <rosantoz_share>
+                <class>Rosantoz_Share_Block</class>
+            </rosantoz_share>
+        </blocks>
+
+        <models>
+            <rosantoz_share>
+                <class>Rosantoz_Share_Model</class>
+            </rosantoz_share>
+        </models>
+
+    </global>
+
+    <frontend>
+
+        <layout>
+            <updates>
+                <rosantoz_share_layout>
+                    <file>rosantoz_share/layout.xml</file>
+                </rosantoz_share_layout>
+            </updates>
+        </layout>
+
+    </frontend>
+
+</config>

@@ -1,0 +1,14 @@
+<br/>
+<br/>
+<a
+    class="uibutton <?php echo $this->getData('buttonSize') ?> confirm"
+    target="_blank"
+    href="https://www.facebook.com/dialog/feed?app_id=<?php echo $this->getData('appId') ?>
+&link=<?php echo $this->getData('redirectUri') ?>
+&picture=<?php echo $this->getData('image') ?>
+&name=<?php echo $this->getData('product') ?>
+&caption=<?php echo $this->getData('caption') ?>
+&description=<?php echo $this->getData('description') ?>
+&redirect_uri=<?php echo $this->getData('redirectUri') ?>">
+    <?php echo $this->getData('buttonText') ?>
+</a>
